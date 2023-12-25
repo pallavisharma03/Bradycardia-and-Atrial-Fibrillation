@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HeartFit Predict</title>
+  <style>
+    /* Body styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #ffe6e6; /* Light pink background */
+      text-align: center; /* Center align content */
+    }
+
+    /* Header styles */
+    h1 {
+      font-size: 36px;
+      color: #800000; /* Maroon color for header */
+      margin-bottom: 30px;
+    }
+
+    /* Result display styles */
+    #result {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff; /* White background for result container */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left; /* Align text to the left */
+    }
+  </style>
+</head>
+<body>
+  <h1>HeartFit Predict</h1>
+
+  <div id="result">
+    <h2>Prediction Result</h2>
+    <p id="prediction"></p>
+  </div>
+
+  <script>
+    // Fetch prediction result from server
+    fetch('/predict')
+      .then(response => response.json())
+      .then(data => {
+        const predictionElement = document.getElementById('prediction');
+        predictionElement.innerText = 'Prediction: ' + data;
+      })
+      .catch(error => {
+        const predictionElement = document.getElementById('prediction');
+        predictionElement.innerText = 'Error fetching prediction: ' + error;
+      });
+  </script>
+</body>
+</html>

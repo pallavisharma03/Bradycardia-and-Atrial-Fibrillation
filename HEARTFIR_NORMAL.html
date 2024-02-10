@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heart Fit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Additional style for scrollable content and section colors */
+    .scrollable-content {
+      max-height: 500px; /* Adjust the maximum height as needed */
+      overflow-y: auto;
+    }
+
+    .section-title {
+      background-color: #C4B5E2; /* Pastel Purple for section titles */
+      color: white;
+      padding: 8px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-r from-pink-200 via-blue-200 to-purple-200 flex items-center justify-center h-screen text-white">
+  <div class="bg-gradient-to-r from-pink-100 via-blue-100 to-purple-100 p-10 rounded-lg shadow-2xl w-3/4 border-2 border-purple-200 scrollable-content">
+    <h1 class="text-4xl font-extrabold mb-10 text-center text-black font-family: 'Playfair Display', serif;"><i class="fas fa-heartbeat text-red-500"></i> Heart Fit Results</h1>
+    <!-- Removed heart rate, SpO2, and temperature sections -->
+    <!-- <p class="p-2 rounded-md mb-5 text-gray-700"><i class="fas fa-heart text-red-500"></i> Heart Rate: <span class="font-semibold">{{ mean_heart_rate }}</span></p>
+    <p class="p-2 rounded-md mb-5 text-gray-700"><i class="fas fa-lungs text-blue-500"></i> SpO2: <span class="font-semibold">{{ mean_spo2 }}</span></p>
+    <p class="p-2 rounded-md mb-5 text-gray-700"><i class="fas fa-thermometer-half text-yellow-500"></i> Temperature: <span class="font-semibold">{{ mode_temperature }}</span></p> -->
+    <p class="p-2 rounded-md mb-5 text-gray-700 text-lg"><i class="fas fa-heart text-green-500"></i> Final Result: <span class="font-semibold text-xl">Normal Heart Condition Detected</span></p>
+    
+    <!-- Additional Information for Normal Heart Condition -->
+    <div class="text-gray-700 mb-5">
+      <p>
+        A normal heart condition, also known as sinus rhythm, is characterized by a regular and steady heartbeat within the normal range of 60 to 100 beats per minute. In this state, the heart's electrical system functions smoothly, coordinating the contractions of the atria and ventricles to maintain an efficient blood flow throughout the body.
+      </p>
+    </div>
+    
+    <div class="section-title">Various factors contribute to a normal heart rhythm, including:</div>
+    <div class="text-gray-700 mb-5">
+      <ul class="list-disc ml-8 mb-5">
+        <li>Healthy Lifestyle: Regular exercise, a balanced diet, and maintaining a healthy weight contribute to overall heart health.</li>
+        <li>Adequate Hydration: Proper fluid balance is essential for optimal heart function.</li>
+        <li>Normal Electrolyte Levels: Balanced levels of electrolytes, such as potassium and sodium, play a crucial role in maintaining a normal heart rhythm.</li>
+        <li>Absence of Underlying Cardiac Conditions: Unlike bradycardia or atrial fibrillation, a normal heart condition is not associated with specific heart-related disorders.</li>
+      </ul>
+    </div>
+
+    <div class="section-title">Symptoms:</div>
+    <div class="text-gray-700 mb-5">
+      <p>
+        Individuals with a normal heart condition typically do not experience symptoms related to an irregular heartbeat. They may enjoy a consistent and comfortable heart rate that supports normal daily activities without any noticeable discomfort.
+      </p>
+    </div>
+
+    <div class="section-title">Prevention and Monitoring:</div>
+    <div class="text-gray-700 mb-5">
+      <p>
+        Maintaining a healthy lifestyle, managing stress, and addressing underlying health conditions contribute to the prevention of heart rhythm disorders. Regular check-ups with healthcare providers help monitor heart health and detect any potential issues early on.
+      </p>
+    </div>
+
+    <div class="section-title">Consultation:</div>
+    <div class="text-gray-700">
+      <p>
+        Consulting a general cardiologist or primary care physician is appropriate for those with a normal heart condition to ensure overall cardiovascular health.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

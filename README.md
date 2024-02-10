@@ -12,11 +12,13 @@ Below is the circuit diagram and the photo of the setup:
 
 <img width="502" alt="Screenshot 2024-02-10 at 11 12 00 AM" src="https://github.com/pallavisharma03/images/assets/137420837/7d9d0358-781c-459f-ad82-8d311b666b5d">
 
+**FIREBASE**
+
+<img width="422" alt="Screenshot 2024-02-10 at 1 57 10 PM" src="https://github.com/pallavisharma03/images/assets/137420837/5ed10078-96b7-431c-bae1-4698ce330b37">
+
 **RESULTS**
 
 <img width="550" alt="Screenshot 2024-02-10 at 1 57 36 PM" src="https://github.com/pallavisharma03/images/assets/137420837/5038e24d-a4e8-4112-a563-7e6e4a3d0379">
-
-<img width="422" alt="Screenshot 2024-02-10 at 1 57 10 PM" src="https://github.com/pallavisharma03/images/assets/137420837/5ed10078-96b7-431c-bae1-4698ce330b37">
 
 <img width="550" alt="Screenshot 2024-02-10 at 1 57 41 PM" src="https://github.com/pallavisharma03/images/assets/137420837/16eeea25-45d4-46f5-9538-d4a118229926">
 
